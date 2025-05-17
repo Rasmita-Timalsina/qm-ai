@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # 🎯 Main function to run QCD interaction visualization
 def run_qcd():
-    st.title(" 🧬 Quark-Gluon Interaction")
+    st.title("Quark-Gluon Interaction")
 
     st.markdown("""
     ### Explains the strong force — the force that holds atomic nuclei together.
