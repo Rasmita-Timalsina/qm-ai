@@ -18,31 +18,31 @@ page = st.sidebar.radio(
     ["Quantum Phenomena", "QED Interaction", "Quantum Tunneling (QFT)", "QCD Simulation"]
 )
 
-# Debugging the page selection
-st.write(f"Selected Page: {page}")
-
 # Run Selected Simulation
 if page == "Quantum Phenomena":
-    st.write("Running Quantum Phenomena Visualization...")
+    st.header("🌌 Quantum Phenomena")
     try:
-        quantum_visualization.run_quantum_visuals()  # Calls function from quantum_visualization.py
+        quantum_visualization.run_quantum_visuals()
     except Exception as e:
         st.error(f"Error running Quantum Phenomena: {e}")
+
 elif page == "QED Interaction":
-    st.write("Running QED Interaction...")
+    st.header("⚡ Quantum Electrodynamics (QED) Interaction")
     try:
-        qed.run_qed()  # Calls function from qed.py
+        qed.run_qed()
     except Exception as e:
         st.error(f"Error running QED Interaction: {e}")
+
 elif page == "Quantum Tunneling (QFT)":
-    st.write("Running Quantum Tunneling (QFT)...")
+    st.header("🌀 Quantum Tunneling (Quantum Field Theory)")
     try:
-        qt_visual.run_tunneling()  # Calls function from qt_visual.py
+        qt_visual.run_tunneling()
     except Exception as e:
         st.error(f"Error running Quantum Tunneling (QFT): {e}")
+
 elif page == "QCD Simulation":
-    st.write("Running QCD Simulation...")
+    st.header("🧲 Quantum Chromodynamics (QCD) Simulation")
     try:
-        qcd_visual1.run_qcd()  # Calls function from qcd_visual1.py
+        qcd_visual1.run_qcd()
     except Exception as e:
         st.error(f"Error running QCD Simulation: {e}")
