@@ -27,7 +27,7 @@ if page == "Quantum Phenomena":
         st.error(f"Error running Quantum Phenomena: {e}")
 
 elif page == "QED Interaction":
-    st.header("⚡ Quantum Electrodynamics (QED) Interaction")
+    st.header("🔆 Quantum Electrodynamics (QED) Interaction")
     try:
         qed.run_qed()
     except Exception as e:
