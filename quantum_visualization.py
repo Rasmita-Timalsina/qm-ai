@@ -65,7 +65,6 @@ def plot_instant_effect(distance, effect_strength):
     add_image(ax, entangled_image, zoom=0.15, xy=(0.5, 0.5))
     st.pyplot(fig)
 
-# ----------------- Example 3: Wave-Particle Duality -----------------
 def plot_wave_particle_duality(wavelength):
     x = np.linspace(-10, 10, 1000)
     intensity = (np.sin(x / wavelength) / x) ** 2  
@@ -83,7 +82,6 @@ def plot_wave_particle_duality(wavelength):
     add_image(ax, wave_image, zoom=0.1, xy=(0.8, 0.8))
     st.pyplot(fig)
 
-# ----------------- Example 4: Quantum Uncertainty -----------------
 def plot_uncertainty(position_uncertainty, momentum_uncertainty):
     x = np.linspace(-5, 5, 1000)
     position = np.exp(-x ** 2 / (2 * position_uncertainty ** 2))  
@@ -106,26 +104,86 @@ def plot_uncertainty(position_uncertainty, momentum_uncertainty):
 # ------------------ Main Function ------------------
 def run_quantum_visuals():
     st.title("Quantum Phenomena Visualizations")
+    st.markdown("""
+    ## Introduction to Quantum Phenomena  
+    **Title:** Understanding Quantum Phenomena through Visualization  
+    **Overview:**  
+    This project aims to visualize key quantum phenomena using interactive plots and graphs. These visualizations help make complex quantum concepts more accessible and understandable.
+    """)
 
-    # Spinning Coin Example (Superposition)
     st.header("Spinning Coin (Superposition)")
+    st.markdown("""
+    **Title:** Superposition: The Spinning Coin  
+    **Key Concept:**  
+    *Superposition* – In quantum mechanics, particles can exist in multiple states at once, like a coin spinning in the air — it's both heads and tails until it lands.
+
+    **Visualization:**  
+    The graph shows two states (Heads and Tails), each oscillating at different frequencies.  
+    The superposition (combined state) is a mix of both, represented by the purple line.
+
+    **Simple Explanation:**  
+    Imagine a spinning coin. Instead of being just heads or tails, the coin is in both states at the same time — this is quantum superposition.
+
+    **Interactive Element:**  
+    Sliders let you adjust the frequency of heads and tails to see how the superposition changes.
+    """)
     state1_freq = st.slider("Frequency of Heads", min_value=1, max_value=10, value=2)
     state2_freq = st.slider("Frequency of Tails", min_value=1, max_value=10, value=4)
     plot_spinning_coin(state1_freq, state2_freq)
 
-    # Instant Effect (Entanglement)
     st.header("Instant Effect (Entanglement)")
+    st.markdown("""
+    **Title:** Entanglement: Instant Communication Between Particles  
+    **Key Concept:**  
+    *Quantum Entanglement* – When two particles are entangled, changes to one particle instantaneously affect the other, no matter how far apart they are.
+
+    **Visualization:**  
+    Two particles are shown on the plot (represented by circles).  
+    Their color reflects how their states change based on interaction — this illustrates the entangled effect.
+
+    **Simple Explanation:**  
+    Picture two particles connected in a special way. If you change one, the other changes instantly — like they’re communicating across vast distances.
+
+    **Interactive Element:**  
+    Sliders let you adjust the distance and strength of the entanglement effect.
+    """)
     distance = st.slider("Distance Between Particles", min_value=0.0, max_value=0.4, value=0.2)
     effect_strength = st.slider("Effect Strength", min_value=0.0, max_value=1.0, value=0.5)
     plot_instant_effect(distance, effect_strength)
 
-    # Wave-Particle Duality
     st.header("Wave-Particle Duality")
+    st.markdown("""
+    **Title:** Wave-Particle Duality: The Nature of Light and Matter  
+    **Key Concept:**  
+    *Wave-Particle Duality* – Particles like electrons or photons can behave both as particles and as waves.
+
+    **Visualization:**  
+    The plot shows the wave pattern's intensity as it spreads across space — demonstrating the wave aspect of a particle.
+
+    **Simple Explanation:**  
+    Like ocean waves, particles can interfere and behave like waves depending on how they're observed.
+
+    **Interactive Element:**  
+    A slider allows you to adjust the wavelength, showing how the wave pattern changes.
+    """)
     wavelength = st.slider("Wavelength", min_value=1, max_value=10, value=2)
     plot_wave_particle_duality(wavelength)
 
-    # Quantum Uncertainty
     st.header("Quantum Uncertainty (Heisenberg Principle)")
+    st.markdown("""
+    **Title:** Uncertainty: The Heisenberg Principle  
+    **Key Concept:**  
+    *Heisenberg Uncertainty Principle* – You cannot know both the exact position and momentum of a particle at the same time.
+
+    **Visualization:**  
+    The plot displays two uncertainty curves — one for position and one for momentum.
+
+    **Simple Explanation:**  
+    The more precisely you know where something is, the less you know about how fast it’s going — and vice versa.
+
+    **Interactive Element:**  
+    Sliders let you adjust the uncertainty in position and momentum to explore their relationship.
+    """)
     position_uncertainty = st.slider("Position Uncertainty", min_value=0.1, max_value=3.0, value=0.5)
     momentum_uncertainty = st.slider("Momentum Uncertainty", min_value=0.1, max_value=3.0, value=2.0)
     plot_uncertainty(position_uncertainty, momentum_uncertainty)
