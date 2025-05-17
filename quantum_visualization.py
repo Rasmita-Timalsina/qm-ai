@@ -101,7 +101,7 @@ def plot_uncertainty(position_uncertainty, momentum_uncertainty):
 
 # ------------------ Main Function ------------------
 def run_quantum_visuals():
-    st.title("🔍🤖📊")
+    st.title("🔍🤖📉")
     st.markdown(""" 
     Interactive visualizations enabled by AI-driven techniques illuminate fundamental quantum phenomena, making complex ideas easier to explore and understand in this project conducted for the graduate course ‘The Art & Science of AI’ at CUA.
     """)
