@@ -107,7 +107,7 @@ def run_quantum_visuals():
     """)
 
     # 🎯 Spinning Coin
-    st.header("Spinning Coin (Superposition)")
+    st.header("🎯 Spinning Coin (Superposition)")
     st.markdown("""
     In quantum mechanics, particles can exist in multiple states at once, like a coin spinning in the air — it's both heads and tails until it lands.
 
@@ -126,7 +126,7 @@ def run_quantum_visuals():
     plot_spinning_coin(state1_freq, state2_freq)
 
     # 🔗 Quantum Entanglement
-    st.header("Instant Effect")
+    st.header("🔗 Quantum Entanglement")
     st.markdown("""
     Instant Communication Between Particles: When two particles are entangled, changes to one particle instantaneously affect the other, no matter how far apart they are.
 
@@ -145,7 +145,7 @@ def run_quantum_visuals():
     plot_instant_effect(distance, effect_strength)
 
     # 🌐 Wave-Particle Duality
-    st.header("Wave-Particle Duality")
+    st.header("🌐 Wave-Particle Duality")
     st.markdown("""
     The Nature of Light and Matter: Particles like electrons or photons can behave both as particles and as waves.
 
@@ -162,7 +162,7 @@ def run_quantum_visuals():
     plot_wave_particle_duality(wavelength)
 
     # ⚖️ Quantum Uncertainty
-    st.header("Heisenberg Principle")
+    st.header("⚖️ Quantum Uncertainty: Heisenberg Principle")
     st.markdown("""
     You cannot know both the exact position and momentum of a particle at the same time.
 
