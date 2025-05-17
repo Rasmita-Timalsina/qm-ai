@@ -41,7 +41,7 @@ elif page == "Quantum Tunneling (QFT)":
         st.error(f"Error running Quantum Tunneling (QFT): {e}")
 
 elif page == "QCD Simulation":
-    st.header("🧲 Quantum Chromodynamics (QCD) Simulation")
+    st.header("🧬 Quantum Chromodynamics (QCD) Simulation")
     try:
         qcd_visual1.run_qcd()
     except Exception as e:
