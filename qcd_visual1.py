@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 
 # 🎯 Main function to run QCD interaction visualization
 def run_qcd():
-    st.title("🧲 QCD Simulation: Quark-Gluon Interaction")
+    st.title(" 🧬 Quark-Gluon Interaction")
 
     st.markdown("""
-    ### 🧬 Explains the strong force — the force that holds atomic nuclei together.
+    ### Explains the strong force — the force that holds atomic nuclei together.
 
     **How it works:**  
     - Quarks are fundamental particles with color charges: red, green, or blue.  
