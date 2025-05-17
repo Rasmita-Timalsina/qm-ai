@@ -1,28 +1,29 @@
-# 🧠 qm-ai
+# 🌌 Quantum AI Visualizations with Streamlit
 
-**AI-powered interactive visualizations of quantum phenomena using Streamlit**
+Explore and understand complex quantum physics concepts — including QFT, QED, and QCD — through AI-powered, interactive visualizations built with Streamlit.
 
-This project visualizes concepts from Quantum Mechanics, Quantum Field Theory (QFT), Quantum Electrodynamics (QED), and Quantum Chromodynamics (QCD) in an accessible, interactive way using Python and Streamlit.
+🚀 **Live App**: [Click here to launch](https://rasmin-qm-ai.streamlit.app/)
 
-## 🌐 Live App
+---
 
-👉 [Click here to try the Streamlit App](https://rasmin-qm-ai.streamlit.app/)
+## 🧠 Features
 
-## 📁 Features
+- 📊 Visualizes Quantum Field Theory, Electrodynamics, and Chromodynamics
+- 🔬 Interactive Feynman diagram simulations
+- 🤖 AI-assisted explanation modules
+- 🧱 Modular, beginner-friendly layout with Streamlit
 
-- Quantum Phenomena Visualizations  
-- QED (Quantum Electrodynamics) Interactions  
-- Quantum Tunneling (QFT) Simulation  
-- QCD (Quantum Chromodynamics) Dynamics  
+---
 
-## ⚙️ Tech Stack
+## 🛠️ Run Locally
 
-- Python  
-- Streamlit  
-- NumPy  
-- Matplotlib  
-- TensorFlow  
-- Pillow (for image processing)
+```bash
+# Clone the repository
+git clone https://github.com/Rasmita-Timalsina/qm-ai.git
+cd qm-ai
 
-## 📂 Project Structure
+# Install dependencies
+pip install -r requirements.txt
 
+# Start the app
+streamlit run main.py
