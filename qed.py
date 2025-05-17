@@ -23,7 +23,7 @@ scattered_data = np.array([compton_scattering(e, p) for e, p in zip(electron_ene
 
 # 🚀 Main Function to Run the Streamlit App
 def run_qed():
-    st.title("⚡ Compton: Photon-Electron Scattering")
+    st.title("Compton: Photon-Electron Scattering")
 
     st.markdown("""
     ### 🧲 QED
