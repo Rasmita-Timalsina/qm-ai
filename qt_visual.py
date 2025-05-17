@@ -41,10 +41,10 @@ def wave_function(x, energy, barrier_height):
 
 # Main visualization function
 def run_tunneling():
-    st.title("Quantum Tunneling Simulation: Particle and Potential Barrier Interaction")
+    st.title("Particle and Potential Barrier Interaction")
 
     st.markdown("""
-    ## 🌌 Quantum Field Theory (QFT)
+    ## 🌌 
     Quantum Field Theory (QFT) combines quantum mechanics with special relativity to explain how particles and forces interact. It’s the foundation of modern physics and helps us understand strange phenomena like quantum tunneling.
 
     ---
