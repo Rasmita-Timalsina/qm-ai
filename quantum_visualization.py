@@ -103,11 +103,8 @@ def plot_uncertainty(position_uncertainty, momentum_uncertainty):
 
 # ------------------ Main Function ------------------
 def run_quantum_visuals():
-    st.title("Quantum Phenomena Visualizations")
-    st.markdown("""
-    ## Introduction to Quantum Phenomena  
-    **Title:** Understanding Quantum Phenomena through Visualization  
-    **Overview:**  
+    st.title("QM-AI Visualizations")
+    st.markdown("""    
     This project aims to visualize key quantum phenomena using interactive plots and graphs. These visualizations help make complex quantum concepts more accessible and understandable.
     """)
 
