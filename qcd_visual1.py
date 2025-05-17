@@ -6,8 +6,7 @@ def run_qcd():
     st.title("🧲 QCD Simulation: Quark-Gluon Interaction")
 
     st.markdown("""
-    ### 🧬 Quantum Chromodynamics (QCD)
-
+    ### 🧬 the part of physics that explains how the strong force works — the force that holds the inside of atoms together.
     **How it works:**  
     - Quarks are fundamental particles with color charges: red, green, or blue.  
     - Gluons mediate the strong force and are exchanged between **quarks of different colors**.  
