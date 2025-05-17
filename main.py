@@ -5,20 +5,25 @@ import qed  # QED visualization
 import qt_visual  # Quantum tunneling visualization
 import qcd_visual1  # QCD visualization
 
-# Force reload of modules to avoid caching issues
+# Force reload modules to avoid caching issues
 importlib.reload(quantum_visualization)
 importlib.reload(qed)
 importlib.reload(qt_visual)
 importlib.reload(qcd_visual1)
 
-# Sidebar Navigation
+# Sidebar Navigation with Title
 st.sidebar.title("Artificial Intelligence Assisted Visualization of Quantum Phenomena")
 page = st.sidebar.radio(
     "Choose a Simulation:",
-    ["Quantum Phenomena", "QED Interaction", "Quantum Tunneling (QFT)", "QCD Simulation"]
+    [
+        "Quantum Phenomena",
+        "QED Interaction",
+        "Quantum Tunneling (QFT)",
+        "QCD Simulation"
+    ]
 )
 
-# Run Selected Simulation
+# Main page header based on selection and run the corresponding module
 if page == "Quantum Phenomena":
     st.header("⚛️ Quantum Phenomena")
     try:
