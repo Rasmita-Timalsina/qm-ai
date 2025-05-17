@@ -112,10 +112,8 @@ def run_quantum_visuals():
     """)
 
     st.header("Spinning Coin (Superposition)")
-    st.markdown("""
-    **Title:** Superposition: The Spinning Coin  
-    **Key Concept:**  
-    *Superposition* – In quantum mechanics, particles can exist in multiple states at once, like a coin spinning in the air — it's both heads and tails until it lands.
+    st.markdown("""  
+    In quantum mechanics, particles can exist in multiple states at once, like a coin spinning in the air — it's both heads and tails until it lands.
 
     **Visualization:**  
     The graph shows two states (Heads and Tails), each oscillating at different frequencies.  
@@ -131,11 +129,10 @@ def run_quantum_visuals():
     state2_freq = st.slider("Frequency of Tails", min_value=1, max_value=10, value=4)
     plot_spinning_coin(state1_freq, state2_freq)
 
-    st.header("Instant Effect (Entanglement)")
+    st.header("Instant Effect (Quantum Entanglement)")
     st.markdown("""
-    **Title:** Entanglement: Instant Communication Between Particles  
-    **Key Concept:**  
-    *Quantum Entanglement* – When two particles are entangled, changes to one particle instantaneously affect the other, no matter how far apart they are.
+    Instant Communication Between Particles:   
+    When two particles are entangled, changes to one particle instantaneously affect the other, no matter how far apart they are.
 
     **Visualization:**  
     Two particles are shown on the plot (represented by circles).  
@@ -153,9 +150,8 @@ def run_quantum_visuals():
 
     st.header("Wave-Particle Duality")
     st.markdown("""
-    **Title:** Wave-Particle Duality: The Nature of Light and Matter  
-    **Key Concept:**  
-    *Wave-Particle Duality* – Particles like electrons or photons can behave both as particles and as waves.
+    The Nature of Light and Matter:
+    Particles like electrons or photons can behave both as particles and as waves.
 
     **Visualization:**  
     The plot shows the wave pattern's intensity as it spreads across space — demonstrating the wave aspect of a particle.
@@ -170,10 +166,8 @@ def run_quantum_visuals():
     plot_wave_particle_duality(wavelength)
 
     st.header("Quantum Uncertainty (Heisenberg Principle)")
-    st.markdown("""
-    **Title:** Uncertainty: The Heisenberg Principle  
-    **Key Concept:**  
-    *Heisenberg Uncertainty Principle* – You cannot know both the exact position and momentum of a particle at the same time.
+    st.markdown("""  
+    You cannot know both the exact position and momentum of a particle at the same time.
 
     **Visualization:**  
     The plot displays two uncertainty curves — one for position and one for momentum.
