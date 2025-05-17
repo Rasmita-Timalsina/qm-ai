@@ -1,5 +1,10 @@
 # 🧪 Decoding Quantum Realms: AI-Driven Visualizations to Simplify Quantum Phenomena
 
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-green?logo=streamlit)](https://streamlit.io/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/Rasmita-Timalsina/qm-ai?style=social)](https://github.com/Rasmita-Timalsina/qm-ai/stargazers)
+
 Explore and understand complex quantum physics concepts — including **Quantum Field Theory (QFT)**, **Quantum Electrodynamics (QED)**, and **Quantum Chromodynamics (QCD)** — through AI-powered, interactive visualizations built with Streamlit.
 
 ---
