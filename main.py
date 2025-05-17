@@ -12,7 +12,7 @@ importlib.reload(qt_visual)
 importlib.reload(qcd_visual1)
 
 # Sidebar Navigation
-st.sidebar.title("🔬 Quantum Physics AI Visualizations")
+st.sidebar.title("Artificial Intelligence Assisted Visualization of Quantum Phenomena")
 page = st.sidebar.radio(
     "Choose a Simulation:",
     ["Quantum Phenomena", "QED Interaction", "Quantum Tunneling (QFT)", "QCD Simulation"]
