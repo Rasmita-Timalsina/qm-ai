@@ -103,11 +103,11 @@ def plot_uncertainty(position_uncertainty, momentum_uncertainty):
 def run_quantum_visuals():
     st.title("🔍🤖📊")
     st.markdown(""" 
-    This project aims to visualize key quantum phenomena using interactive plots and graphs. These visualizations help make complex quantum concepts more accessible and understandable.
+    Interactive visualizations enabled by AI-driven techniques illuminate fundamental quantum phenomena, making complex ideas easier to explore and understand in this project conducted for the graduate course ‘The Art & Science of AI’ at CUA.
     """)
 
     # 🎯 Spinning Coin
-    st.header("🎯 Spinning Coin (Superposition)")
+    st.header("🎯 Superposition: Spinning Coin")
     st.markdown("""
     In quantum mechanics, particles can exist in multiple states at once, like a coin spinning in the air — it's both heads and tails until it lands.
 
