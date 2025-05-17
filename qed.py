@@ -23,10 +23,10 @@ scattered_data = np.array([compton_scattering(e, p) for e, p in zip(electron_ene
 
 # 🚀 Main Function to Run the Streamlit App
 def run_qed():
-    st.title("⚡ QED Simulation: Photon-Electron Scattering")
+    st.title("⚡ Compton: Photon-Electron Scattering")
 
     st.markdown("""
-    ### 🧲 Quantum Electrodynamics (QED) — Compton Scattering
+    ### 🧲 QED
 
     **What Happens?**  
     When a photon hits an electron, the photon transfers energy to it. This causes the electron to scatter.  
