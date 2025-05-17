@@ -20,7 +20,7 @@ page = st.sidebar.radio(
 
 # Run Selected Simulation
 if page == "Quantum Phenomena":
-    st.header("🌌 Quantum Phenomena")
+    st.header("⚛️ Quantum Phenomena")
     try:
         quantum_visualization.run_quantum_visuals()
     except Exception as e:
