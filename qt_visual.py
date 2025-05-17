@@ -44,8 +44,8 @@ def run_tunneling():
     st.title("Particle and Potential Barrier Interaction")
 
     st.markdown("""
-    ## 🌌 
-    Quantum Field Theory (QFT) combines quantum mechanics with special relativity to explain how particles and forces interact. It’s the foundation of modern physics and helps us understand strange phenomena like quantum tunneling.
+    ## 🌌 QFT 
+    It combines quantum mechanics with special relativity to explain how particles and forces interact. It’s the foundation of modern physics and helps us understand strange phenomena like quantum tunneling.
 
     ---
     ## 🚧 The Potential Barrier
