@@ -6,7 +6,8 @@ def run_qcd():
     st.title("Quark-Gluon Interaction")
 
     st.markdown("""
-    ### Explains the strong force — the force that holds atomic nuclei together.
+    ### ⚙️ QCD
+    Explains the strong force — the force that holds atomic nuclei together.
 
     **How it works:**  
     - Quarks are fundamental particles with color charges: red, green, or blue.  
