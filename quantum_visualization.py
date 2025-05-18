@@ -103,7 +103,8 @@ def plot_uncertainty(position_uncertainty, momentum_uncertainty):
 def run_quantum_visuals():
     st.title("🔍🤖📉")
     st.markdown(""" 
-    Interactive visualizations enabled by AI-driven techniques illuminate fundamental quantum phenomena, making complex ideas easier to explore and understand in this project conducted for the graduate course ‘The Art & Science of AI’ at CUA.
+    Quantum phenomena represent the fundamental behaviors of nature at the smallest scales—such as atoms and subatomic particles—governed by the principles of quantum mechanics. These behaviors are often inherently unpredictable, probabilistic, and distinct from those described by classical physics.
+Visual representations—such as plots, diagrams, or simulations—are employed because many quantum effects, including interference, tunneling, and energy quantization, are not directly observable. These visual tools translate otherwise invisible behaviors into discernible patterns, probabilities, or waveforms, thereby facilitating a deeper understanding of the unconventional behavior of microscopic particles.
     """)
 
     # 🎯 Spinning Coin
